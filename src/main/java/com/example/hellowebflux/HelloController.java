@@ -11,4 +11,17 @@ public class HelloController {
 	Flux<String> hello() {
 		return Flux.just("Hello", "World");
 	}
+
+	@GetMapping("/hoge")
+	Flux<String> hoge() {
+
+		if (true) {
+			if (true) {
+				if (true) {
+				}
+			}
+		}
+
+		return Flux.just("hoge", "fugo");
+	}
 }
