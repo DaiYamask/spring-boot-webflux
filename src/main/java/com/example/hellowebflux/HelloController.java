@@ -15,13 +15,9 @@ public class HelloController {
 	@GetMapping("/hoge")
 	Flux<String> hoge() {
 
-		if (true) {
-			if (true) {
-				if (true) {
-				}
-			}
+		if (false) {
+			System.out.println("Never reach");
 		}
-
 		return Flux.just("hoge", "fugo");
 	}
 }
