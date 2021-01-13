@@ -9,6 +9,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class HelloWebFluxApplicationTests {
 
+	// launch application test
 	@Test
 	public void contextLoads() {
 	}
